@@ -8,8 +8,11 @@ sobrenomes = ["Ferreira", "Barbosa", "Barros",
                 "Campos", "Cardoso", "Costa",
                 "Pereira", "Souza", "Santos",
                 "Alves", "Gomes", "Lima"]
-
-for cont in range(0, x+1):
+# Código anterior
+# for cont in range(0, x+1):
+# Código proposto
+# Testei seu programa e ele estava retornando 1 nome a mais, então estou sugerindo esta correção
+  for cont in range(0, x):
     if sexo in "Mm":
         nomesm = ["Marcos", "Pedro", "Alessandro",
                     "Diego", "Gabriel", "Rafael", 
